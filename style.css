@@ -1,0 +1,124 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.4));
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the To-Do List */
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 36px; /* Make the text larger */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+    color: #fff;
+}
+
+/* Form Styles */
+#todo-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+}
+
+#todo-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #555;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+#todo-form button:hover {
+    background: #666;
+}
+
+/* To-Do List Styles */
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    background: #222;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Button Styles */
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #444;
+}
+
+/* Edit Mode Styles */
+.edit-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.save-button {
+    background: #4e4e50;
+}
+
+.save-button:hover {
+    background: #121312;
+}
+
+.cancel-button {
+    background: #706f6f;
+}
+
+.cancel-button:hover {
+    background: #0e0d0d;
+}
